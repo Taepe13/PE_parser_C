@@ -59,4 +59,4 @@ Project Structure
 
 ## Author
     Taepe13 - Offensive Security engineer.
-*   Github: @Taeper13
+*   Github: @Taepe13
