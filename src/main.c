@@ -60,8 +60,8 @@ int main(int argc, char* argv[])
     printf("  DllCharacteristics:     ", pNt->OptionalHeader.DllCharacteristics);
     PrintDllCharacteristics(pNt->OptionalHeader.DllCharacteristics);
     printf(")\n");
-    PrintSections(pNt);
     PrintImports(pBuffer, pNt);
+    PrintSections(pNt);
     HeapFree(GetProcessHeap(), 0, pBuffer);
     return 0;
 }
