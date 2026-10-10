@@ -36,7 +36,7 @@ This intentionally simple and readable parser without any external dependencies 
 cl src\*.c \Fe:pe_parser.exe \Zi \EHsc
 
 ## Usage
-```pe_parser.exe <path_to_exe>
+pe_parser.exe <path_to_exe>
 
 
 ## Example
