@@ -27,7 +27,7 @@ void PrintImports(PBYTE pBuffer, PIMAGE_NT_HEADERS pNt)
         {
             if(pThunk->u1.Ordinal & 0x8000000000000000)
             {
-                printf("        Ordinal: 0x%0411X\n", pThunk->u1.Ordinal & 0xFFFF);
+                printf("        Ordinal: 0x%04llX\n", pThunk->u1.Ordinal & 0xFFFF);
 
             }
             else
